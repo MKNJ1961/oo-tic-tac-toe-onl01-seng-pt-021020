@@ -30,7 +30,7 @@ class TicTacToe
   end
 
 def move(idx, char)
-  @board[index] = char
+  @board[idx] = char
 end
   # def move(index, player)
   #   if valid_move?(index)
