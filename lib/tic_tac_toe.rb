@@ -8,7 +8,7 @@ class TicTacToe
   #   @player_x = "X"
   #   @player_o = "O"
   # end
-  # 
+  #
   # WIN_COMBINATIONS = [
   #   [0,1,2],
   #   [3,4,5],
@@ -19,7 +19,7 @@ class TicTacToe
   #   [0,4,8],
   #   [2,4,6]
   # ]
-  # 
+  #
   # def display_board
   #   puts " #{@board[0]} | #{@board[1]} | #{@board[2]} "
   #   puts "-----------"
@@ -27,13 +27,13 @@ class TicTacToe
   #   puts "-----------"
   #   puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
   # end
-  # 
+  #
   # def input_to_index(user_input)
   #   new_user_input = user_input.to_i
   #   new_user_input -= 1
   #   return new_user_input
   # end
-  # 
+  #
   # def move(index, player)
   #   if valid_move?(index)
   #     @board[index] = player
@@ -41,23 +41,23 @@ class TicTacToe
   #   end
   #   return false
   # end
-  # 
+  #
   # def position_taken?(index)
   #   @board[index] == "X" || @board[index] == "O"
   # end
-  # 
+  #
   # def valid_move?(index)
   #   index >=0 && index <=8 && !position_taken?(index)
   # end
-  # 
+  #
   # def turn_count
   #   @board.reject{|space| space != "X" && space != "O"}.length
   # end
-  # 
+  #
   # def current_player
   #   is_even(turn_count) ? @palyer_x : @player_o
   # end
-  # 
-  # 
-  # 
+  #
+  #
+  #
 end
