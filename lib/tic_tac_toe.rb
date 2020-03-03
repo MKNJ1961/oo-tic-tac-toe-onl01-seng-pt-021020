@@ -29,6 +29,9 @@ class TicTacToe
     str_input.to_i - 1
   end
 
+def move(idx, char)
+  @board[index] = char
+end
   # def move(index, player)
   #   if valid_move?(index)
   #     @board[index] = player
