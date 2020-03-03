@@ -1,13 +1,10 @@
-# require 'set'
-
-
 class TicTacToe
 
-  # def initialize
-  #   @board = Array.new(9, " ")
+  def initialize
+    @board = Array.new(9, " ")
   #   @player_x = "X"
   #   @player_o = "O"
-  # end
+  end
   #
   # WIN_COMBINATIONS = [
   #   [0,1,2],
