@@ -24,11 +24,14 @@ class TicTacToe
     puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
   end
   #
-  # def input_to_index(user_input)
+  def input_to_index(str_input)
+    #change input to index, sub 1
+    str_input.to_i - 1
+  end
   #   new_user_input = user_input.to_i
   #   new_user_input -= 1
   #   return new_user_input
-  # end
+  
   #
   # def move(index, player)
   #   if valid_move?(index)
