@@ -54,6 +54,10 @@ class TicTacToe
     @board.reject{|space| space != "X" && space != "O"}.length
   end
 
+  def current_player
+    is_even(turn_count) ? @palyer_x : @player_o
+  end
+
 
 
 end
