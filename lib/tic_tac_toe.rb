@@ -50,6 +50,10 @@ class TicTacToe
     index >=0 && index <=8 && !position_taken?(index)
   end
 
+  def turn_count
+    @board.reject{|space| space != "X" && space != "O"}.length
+  end
+
 
 
 end
