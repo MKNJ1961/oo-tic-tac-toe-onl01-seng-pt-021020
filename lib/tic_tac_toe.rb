@@ -34,10 +34,10 @@ class TicTacToe
   end
 
   def position_taken?(idx)
-    (board[idx]  == " ") ? false : true
+    (@board[idx]  == " ") ? false : true
 end
   #
-  def valid_move?(index)
+  def valid_move?(idx)
   #   index >=0 && index <=8 && !position_taken?(index)
   # end
   #
