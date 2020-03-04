@@ -34,12 +34,9 @@ class TicTacToe
   end
 
   def position_taken?(idx)
-    if
-    @board[idx] == " "
-    return false
-  else
-    return true
-  end
+    ?
+  (board[idx]  == " ") ? false : true
+end
   #
   # def valid_move?(index)
   #   index >=0 && index <=8 && !position_taken?(index)
