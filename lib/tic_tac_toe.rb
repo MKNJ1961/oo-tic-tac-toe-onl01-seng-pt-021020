@@ -39,11 +39,6 @@ end
   #
   def valid_move?(idx)
     !(self.position_taken?(idx))
-  #   index >=0 && index <=8 && !position_taken?(index)
-  # end
-  #
-  # def turn_count
-  #   @board.reject{|space| space != "X" && space != "O"}.length
   end
   #
   # def current_player
