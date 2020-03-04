@@ -32,14 +32,6 @@ class TicTacToe
 def move(idx, char)
   @board[idx] = char
 end
-  # def move(index, player)
-  #   if valid_move?(index)
-  #     @board[index] = player
-  #     return true
-  #   end
-  #   return false
-  # end
-  #
   # def position_taken?(index)
   #   @board[index] == "X" || @board[index] == "O"
   # end
