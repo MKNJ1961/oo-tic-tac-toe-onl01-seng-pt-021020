@@ -29,12 +29,13 @@ class TicTacToe
     str_input.to_i - 1
   end
 
-def move(idx, char)
-  @board[idx] = char
-end
-  # def position_taken?(index)
-  #   @board[index] == "X" || @board[index] == "O"
-  # end
+  def move(idx, char)
+    @board[idx] = char
+  end
+
+  def position_taken?(idx)
+    @board[idx] == "X" || @board[idx] == "O"
+  end
   #
   # def valid_move?(index)
   #   index >=0 && index <=8 && !position_taken?(index)
