@@ -35,10 +35,11 @@ class TicTacToe
 
   def position_taken?(idx)
     (@board[idx]  == " ") ? false : true
-end
+  end
   #
   def valid_move?(idx)
     !(self.position_taken?(idx))
+    idx.between(0, 8)
   end
   #
   # def current_player
