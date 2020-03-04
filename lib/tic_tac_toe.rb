@@ -37,13 +37,13 @@ class TicTacToe
     (board[idx]  == " ") ? false : true
 end
   #
-  # def valid_move?(index)
+  def valid_move?(index)
   #   index >=0 && index <=8 && !position_taken?(index)
   # end
   #
   # def turn_count
   #   @board.reject{|space| space != "X" && space != "O"}.length
-  # end
+  end
   #
   # def current_player
   #   is_even(turn_count) ? @palyer_x : @player_o
