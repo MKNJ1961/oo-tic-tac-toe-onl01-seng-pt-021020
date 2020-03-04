@@ -41,6 +41,10 @@ class TicTacToe
     # !(self.position_taken?(idx))
     idx.between?(0, 8) && !(self.position_taken?(idx))
   end
+
+  def turn_count
+    @board.count('X') + @board.count('O')
+  end
   #
   # def current_player
   #   is_even(turn_count) ? @palyer_x : @player_o
