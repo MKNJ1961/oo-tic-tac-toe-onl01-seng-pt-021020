@@ -49,7 +49,7 @@ class TicTacToe
   def current_player
     is_even(turn_count) ? @palyer_x : @player_o
   end
-  
+
   #
   #
 end
