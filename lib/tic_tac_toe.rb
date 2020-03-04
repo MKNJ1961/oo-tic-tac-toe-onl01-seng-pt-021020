@@ -46,10 +46,10 @@ class TicTacToe
     @board.count('X') + @board.count('O')
   end
   #
-  # def current_player
-  #   is_even(turn_count) ? @palyer_x : @player_o
-  # end
-  #
+  def current_player
+    is_even(turn_count) ? @palyer_x : @player_o
+  end
+  
   #
   #
 end
